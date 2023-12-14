@@ -1,5 +1,7 @@
 import React from "react";
 import "./weather.css"
+import { useState } from "react";
+
 
 const Weather = () => {
   const [city, setCity] = useState("");
